@@ -1,0 +1,59 @@
+.multiline {
+    white-space: break-spaces;
+}
+
+.bg-transp {
+    background-color: hsla(0, 0%, 100%, .8);
+}
+
+
+.floating-carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../img/bank-indonesia.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Container needed to position the button. Adjust the width as needed */
+.logo-container {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .logo-container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .logo-container .btn {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  
